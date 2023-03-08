@@ -1,0 +1,215 @@
+body {
+    background-color: white;
+    background-image: url(../img/quadrinhosmarvel.webp);
+    
+}
+
+header {
+    font-family: var(--fonte-destaque);
+    background-image: black;
+    min-height: 100px;
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    }
+
+div {
+
+    text-align: center;
+} 
+
+
+    header > h1 {
+        color: rgb(255, 0, 0);
+        font-size: 3em;
+        font-family: var(--fonte-destaque);
+        font-weight: normal;
+        margin-bottom: 5px;
+        text-shadow: 2px 2px 0px rgb(0 0 0 / 27%);
+
+        
+    }
+
+    :root {
+        --cor0: white;
+        --cor1: hsl(352, 94%, 12%);
+        --cor2: #7a0404;
+        --cor3: #960101;
+        --cor4: #5c1a1a;
+        --cor5: #3d0606;
+        --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+        --fonte-destaque: 'Bebas Neue', cursive,;
+    }
+
+
+    h1 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    nav {
+        overflow: hidden;
+        background-color: black;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+
+    nav {
+        display: block;
+        }
+    
+        nav a {
+            color: white;
+            padding: 10px 10px 10px 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition-duration: 0.5s;
+            border-radius: 2px;
+            font-family: var(--fonte-destaque);
+            text-align: center;
+            float: center;
+            font-size: 17px;
+        }
+
+        main h2 {
+            font-family: 'Times New Roman', Times, serif;
+            
+            font-size: 2em;
+            font-weight: normal;
+            background-image: linear-gradient(90deg, rgba(174,212,238,1) 0%, rgba(0,0,0,1) 100%);
+            text-indent: 8px;
+            padding: 10px;
+            font-weight: bold;
+            margin: 20px 0px 20px 0px;
+            text-align: center;
+        }
+
+        h2 {
+            display: block;
+            font-size: 1.5em;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        h2.id {
+            text-align: center;
+        }
+
+        .link {
+            color: white;
+            font-weight: bold;
+            transition-duration: 0.5s;
+            border-radius: 2px;
+            font-family: var(--fonte-destaque);
+        }
+
+        a:-webkit-any-link {
+            color: white;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+       
+
+        main {
+            min-width: 300px;
+            max-width: 1000px;
+            margin: auto;
+            margin-bottom: 30px;
+            background-color: black;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgb(0 0 0 / 61%);
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            }
+            
+            img  {
+                width: 25%;
+                align-items: center;
+                
+                
+            }
+
+            .img {
+                text-align: center;
+                width: 150px;
+            }
+
+            p {
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                text-align: center;
+            }
+        
+        main p {
+
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            text-align: center;
+            display: block;
+            
+        }
+        
+        .jantar {
+            width: 100px;
+            height: 100px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+       .emocoes {
+        text-align: left;
+       }
+        
+
+        .texto-jantar {
+            text-align: left;
+            display: flex;
+        }
+
+        .img {
+            text-align: center;
+        }
+
+
+        .texto-audio {
+            background-color:white;
+            padding: 5px;
+        }
+
+        ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        }
+
+        .emocoes, #lista-curiosidade {
+            text-align: left;
+            margin-left: 20px;
+        }
+
+       
+
+
+        
+        
+
+
